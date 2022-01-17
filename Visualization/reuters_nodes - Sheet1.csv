@@ -1,0 +1,6 @@
+node_id,node_name,node_NER
+1,Japan,LOCATION
+2,Sumita,PERSON
+3,Paris,LOCATION
+4,USA,LOCATION
+5,Tokyo,LOCATION
