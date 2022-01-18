@@ -1,5 +1,2 @@
-# ignore stored pickle files
-stored_data/
-
 # ignore trained models
 NER/models/
