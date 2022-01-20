@@ -26,12 +26,19 @@ This project is a part of the Becode.org AI Bootcamp programme. The goal is to p
 - Be able to write clean and documented code.
 
 ### Strengths
-- Pipeline for extracting NER and relationships between them, linking entities them with WikiData and uploading both entities as well as relationships to a Neo4j database.
-- 
+- Applicable for any text.
+- Relationships are automatically extracted and clustered by meaning.
+- Most modules are fully automated, some use context specific information that can be easily added.
+- Entity Linking automatically groups entities that are spelled slightly different.
+- Adaptable neo4j graphs.
+
 ### Limitations
-- Only a prtotype of a graph in Streamlit developed.
+- Only a prototype of a graph in Streamlit developed.
+- No transformers were harmed in the making of this project.
 
 ### Further Developments
+- Implement interactive streamlit app.
+- Further automate Entity Recognition.
 
 ## Repo Architecture
 ```
