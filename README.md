@@ -30,15 +30,15 @@ This project is a part of the Becode.org AI Bootcamp programme. The goal is to p
 - Relationships are automatically extracted and clustered by meaning.
 - Most modules are fully automated, some use context specific information that can be easily added.
 - Entity Linking automatically groups entities that are spelled slightly different.
-- Adaptable neo4j graphs.
+- Adaptable Neo4j graphs.
 
 ### Limitations
 - Only a prototype of a graph in Streamlit developed.
 - No transformers were harmed in the making of this project.
 
 ### Further Developments
-- Implement interactive streamlit app.
-- Further automate Entity Recognition.
+- Implement interactive Streamlit app.
+- Further automate Entity recognition.
 
 ## Repo Architecture
 ```
