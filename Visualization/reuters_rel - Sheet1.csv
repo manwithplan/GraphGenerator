@@ -1,6 +1,0 @@
-Source,Target,Relationship
-2,1,WAS_BORN
-2,5,WAS_BORN
-2,3,LIVED_IN
-2,4,STUDIED_IN
-5,1,IS_CAPITAL

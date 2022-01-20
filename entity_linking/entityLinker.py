@@ -84,4 +84,3 @@ class entityLinker:
         # add column to dataframe and save it to the database
         self.df["id_dedup"] = id_dedup
         self.df.to_csv("entities_wiki_final.csv")
-        self.df.to_csv("../database/entities.csv")

@@ -8,7 +8,7 @@ class get_data:
     Class that downloads the data and cleans it, using basic python string manipulations.
     """
 
-    def __init__(self) -> None:
+    def __init__(self, dataset=None) -> None:
 
         # download the dataset via the nltk lib
         nltk.download("reuters")
@@ -25,6 +25,10 @@ class get_data:
         self.suitable_articles, self.suitable_ids = self.select_suitable(
             self.files, self.reuters
         )
+
+        if dataset != None:
+            self.files = dataset
+            self.suitable_articles = dataset
 
     def main(self):
         """

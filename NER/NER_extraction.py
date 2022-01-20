@@ -169,7 +169,7 @@ class NER:
 
         pattern_commodity = [{"ORTH": {"IN": self.commodities_list}}]
 
-        patterns = [
+        self.patterns = [
             {"label": "PERSON", "pattern": pattern_person, "id": "Person of Interest"},
             {"label": "COMPANY", "pattern": pattern_company, "id": "Company"},
             {"label": "COMMODITY", "pattern": pattern_commodity, "id": "Comodity"},
@@ -181,7 +181,7 @@ class NER:
 
         ruler = EntityRuler(self.nlp)
         ruler = self.nlp.add_pipe("entity_ruler", before="ner")
-        ruler.add_patterns(patterns)
+        ruler.add_patterns(self.patterns)
 
         # store the language model
         self.nlp.to_disk("../model/pipeline")
