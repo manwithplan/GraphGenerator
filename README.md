@@ -98,19 +98,19 @@ Project/
 ## Timeline
 Duration: 2 weeks
 
-#version 1.0 
+# version 1.0 
 We used the large english spacy nlp pipeline language model ('en_core_web_lg') on cleaned data, using the in-built pre-trained NER model, 
 ruled based matching between 2 entities with a verb in the middle for relationship extraction.
 
-#version 1.1 
+# version 1.1 
 The ruled based matching was improved. Where it used to recognize between any 2 entities with a verb in the middle, it now only searches 
 for entities specified in a certain list. A custom NER model was trained for data gathered in PERSON, BANK, COMPANY, COMMODITY, AGREEMENTS.
 
-#version 1.2 
+# version 1.2 
 The custom NER model was discarded for poor performance and replaced with a custom entity ruler class looking for COMPANY, PERSON and COMMODITY.
 Attempts at using Neural Coreference were discarded due to the constrained timing of the project.
 
-#version 1.3
+# version 1.3
 The relationship extraction was optimized by using a custom clustering algorithm. The application of entity linking links together identical entities 
 with different syntax.
 
