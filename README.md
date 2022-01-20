@@ -34,6 +34,7 @@ This project is a part of the Becode.org AI Bootcamp programme. The goal is to p
 ### Further Developments
 
 ## Repo Architecture
+```
 Project/
 |-- Deployment/
 |   |-- streamlit_app.py
@@ -68,7 +69,7 @@ Project/
 |-- README.md
 |-- .gitignore
 |-- main.py
-
+```
 
 ## Installation
 - Clone the repository and install the dependencies with `requirements.txt`
