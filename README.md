@@ -17,7 +17,7 @@ This project is a part of the Becode.org AI Bootcamp programme. The goal is to p
 
 ## Visuals
 
-![Commodity-Oil](commodity-oil.png)
+![Commodity-Oil](Resources/commodity-oil.png)
 
 
 ## Objectives
