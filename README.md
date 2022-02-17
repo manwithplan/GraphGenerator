@@ -13,9 +13,11 @@
 8. [Personal situation](#personal-situation)
 
 ## Description
-This project is a part of the Becode.org AI Bootcamp programme. The goal is to provide a knowledge graph representing entities and relationships between them. Dataset: Reuters-21578 corpus.
+This project is a part of the Becode.org AI Bootcamp programme. The goal is to provide a knowledge graph representing entities and relationships between them. Dataset: Reuters-21578 corpus. This is a collection of some 120000 short articles covering mainly political and economic news.
 
 ## Visuals
+
+Some of the results of the Neo4j Graph
 
 ![Commodity-Oil](Resources/commodity-oil.png)
 
