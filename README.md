@@ -2,32 +2,24 @@
 
 ## Table of Contents
 1. [Description](#description)
-1. [Objectives](#objectives)
+2. [Visuals](#visuals)
+3. [Objectives](#objectives)
 	1. [Challenges](#challenges)
 	2. [Limitations](#limitations)
 	3. [Further developments](#further-developments)
-1. [Repo Architecture](#repo-architecture)
-1. [Installation](#installation)
-1. [Usage](#usage)
-1. [Visuals](#visuals)
-1. [Timeline](#timeline)
-1. [Personal situation](#personal-situation)
+4. [Repo Architecture](#repo-architecture)
+5. [Installation](#installation)
+6. [Usage](#usage)
+8. [Personal situation](#personal-situation)
 
 ## Description
 This project is a part of the Becode.org AI Bootcamp programme. The goal is to provide a knowledge graph representing entities and relationships between them. Dataset: Reuters-21578 corpus.
 
+## Visuals
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-improving the ruled based matching. Where it used to recognize between any 2 entities with a verb in the middle, it now only searches for entities in a certain list.
+![Commodity-Oil](commodity-oil.svg)
 
-### version 1.2
 
-applying manual and custom trained entity detection to all the dataset
-=======
-improving the ruled based matching. Where it used to recognize between any 2 entities with a verb in the middle, it now only searches for entities in a certain list.
->>>>>>> 9a9e105d3ff920b3d52f874cbaba108165336415
-=======
 ## Objectives
 - Be able to preprocess data obtained from textual sources
 - Be able to employ named entity recognition and relationship extraction using spaCy
@@ -111,10 +103,6 @@ Project/
 
 ### Deployment with Streamlit and Agraph
 `Deployment/streamlit_app.py/` contains a prototype of a Streamlit app built with the Agraph component.
-## Visuals
-
-## Timeline
-Duration: 2 weeks
 
 ### version 1.0 
 We used the large english spacy nlp pipeline language model (*'en_core_web_lg'*) on cleaned data, using the in-built pre-trained NER model, 
@@ -136,4 +124,3 @@ with different syntax.
 Contributors: [manwithplan](https://github.com/manwithplan), [kpranke](https://github.com/kpranke)
 
 **[Back to top](#table-of-contents)**
->>>>>>> 55a6acf7f76bbe583a74d012a2e218d95f8a5698
