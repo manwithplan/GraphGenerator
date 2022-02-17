@@ -17,7 +17,7 @@ This project is a part of the Becode.org AI Bootcamp programme. The goal is to p
 
 ## Visuals
 
-Some of the results of the Neo4j Graph
+An example of the analysis shows the Neo4J graph telling us the strongest relations between oil and other entities and their relationships.
 
 ![Commodity-Oil](Resources/commodity-oil.png)
 
