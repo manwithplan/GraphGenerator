@@ -17,17 +17,6 @@
 This project is a part of the Becode.org AI Bootcamp programme. The goal is to provide a knowledge graph representing entities and relationships between them. Dataset: Reuters-21578 corpus.
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-improving the ruled based matching. Where it used to recognize between any 2 entities with a verb in the middle, it now only searches for entities in a certain list.
-
-### version 1.2
-
-applying manual and custom trained entity detection to all the dataset
-=======
-improving the ruled based matching. Where it used to recognize between any 2 entities with a verb in the middle, it now only searches for entities in a certain list.
->>>>>>> 9a9e105d3ff920b3d52f874cbaba108165336415
-=======
 ## Objectives
 - Be able to preprocess data obtained from textual sources
 - Be able to employ named entity recognition and relationship extraction using spaCy
@@ -136,4 +125,3 @@ with different syntax.
 Contributors: [manwithplan](https://github.com/manwithplan), [kpranke](https://github.com/kpranke)
 
 **[Back to top](#table-of-contents)**
->>>>>>> 55a6acf7f76bbe583a74d012a2e218d95f8a5698
