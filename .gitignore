@@ -1,3 +1,7 @@
 # ignore trained models
 NER/models/
+<<<<<<< HEAD
 model/
+=======
+model/
+>>>>>>> 55a6acf7f76bbe583a74d012a2e218d95f8a5698
